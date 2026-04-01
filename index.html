@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+
+            <h1>Jose Angel Castilla Muñoz</h1>
+            <nav>
+                <ul>
+                    <li><a class="boton" href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a class="boton" href="#conocimientos">Mis Conocimientos</a></li>
+                    <li><a class="boton" href="#contacto">Mis Contactos</a></li>
+                    <li><a class="boton" href="#proyectos">Mis Proyectos</a></li>
+                    <li><a class="boton" href="#dudas">Dudas</a></li>
+                </ul>
+            </nav>
+        
+        </header>
+        
+        <main>
+            <section id="sobre-mi">
+
+                <h2 class="subtitle">Sobre Mí</h2>
+                <p>Hola! Soy un estudiante de ingenieria de sistemas de la Corporacion Universitaria Americana, estoy en proceso de aprendizaje y este sera mi portafolio.</p>
+                <figure>
+                    <img src="images/maxinminecraft.webp" alt="Max verstappen en minecraft." width="420">
+                    <figcaption>Mi foto de perfil</figcaption>
+                </figure>
+                
+            
+            </section>
+
+            <section id="conocimientos">
+
+                <h2 class="subtitle">Mis Conocimientos</h2>
+                
+                <table border="1">
+                    <caption>Mis conocimientos!</caption>
+                    <thead>
+                        <tr>
+                            <th>Categoría</th>
+                            <th>Habilidad</th>   
+                            <th>Nivel</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Programación</td>
+                            <td>Python</td>
+                            <td>Básico-Medio</td>
+                        </tr>
+                        <tr>
+                            <td>Diseño Web</td>
+                            <td>HTML5</td>
+                            <td>Básico Certificado</td>
+                        </tr>
+                        <tr>
+                            <td>Matemáticas</td>
+                            <td>Cálculo Integral</td>
+                            <td>Medio</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </section>
+
+            <section id="proyectos">
+                <h2 class="subtitle">Mis proyectos</h2>
+                <p>Un breve resumen de mis proyectos con sus respectivos archivos u enlances.</p>
+
+                <ul>
+                    <li><a class="boton" href="index2.html" target="_blank">Proyecto de certificacion de HTML5 básico.</a></li>
+                </ul>
+            </section>
+
+            <section id="dudas">
+                <h2 class="subtitle">Dudas Sobre Mí</h2>
+
+                <form>
+                    <p>
+                        <label id="name-label" for="name">Name</label>
+                        <input required id="name" type="text" name="name" placeholder="John Doe">
+                    </p>
+
+                    <p>
+                        <label id="email-label" for="email">Email</label>
+                        <input required id="email" type="email" name="email" placeholder="example@email.com" >
+                    </p>
+        
+                    <p>
+                        <label id="number-label" for="number">Age</label>
+                        <input type="number" id="number" name="age" min="3" max="100" placeholder="18">
+                    </p>
+
+                    <textarea></textarea>
+                    <button id="submit">submit</button>
+
+                </form>
+            </section>
+            
+        </main>
+   
+    <footer>
+        <section id="contacto">
+
+            <h2 class="subtitle">mis contactos</h2>
+            <address>
+                Discord: <strong>mister_vicio</strong><br/>
+                Email: <a href="mailto:examplemail@mail.com">examplemail@mail.com</a>
+            </address>
+
+        </section>
+    </footer>
+    </div>
+</body>
+
+</html>

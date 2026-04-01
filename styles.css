@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    background-image: url(images/JourneysEnd-Day-PC-Wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.boton {
+    color: gray;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+ul {
+    list-style-type: none; 
+    padding: 0;           
+    text-align: center;   
+    
+}
+
+li {
+    display: inline-block; 
+    margin: 0 15px; 
+}
+
+figure img {
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+table {
+    margin: auto;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: rgba(0, 100, 0, 0.85);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 48px;
+}
+
+.subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+p{
+    font-family: Arial;
+    padding: 20px
+}
+
+footer {
+    padding-bottom: 20px;
+
+}

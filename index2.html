@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulario de Encuesta</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">Formulario de encuesta</h1>
+      <p id="description">¡Hola! Gracias por hacer realidad esta encuesta.</p>
+    </header>
+    <main>
+    <form id="survey-form">
+      <p>
+        <label id="name-label" for="name">Name</label>
+        <input required id="name" type="text" name="name" placeholder="John Doe">
+      </p>
+
+      <p>
+        <label id="email-label" for="email">Email</label>
+        <input required id="email" type="email" name="email" placeholder="example@email.com" >
+      </p>
+      
+      <p>
+        <label id="number-label" for="number">Age</label>
+        <input type="number" id="number" name="age" min="3" max="100" placeholder="18">
+      </p>
+
+      <h2>¿Qué Rol te describe mejor?</h2>
+      <select id="dropdown">
+        <option>Estudiante</option>
+        <option>Empleado Full time</option>
+        <option>Empleado Mid time</option>
+        <option>Prefiero no decirlo</option>
+        <option>Other</option>
+      </select>
+
+      <h2>¿Me recomendarias a otras personas?</h2>
+      
+
+      <input type="radio" id="yes-option" name="choice" value="yes">
+      <label for="yes-option">Si</label>
+
+      <input type="radio" id="maybe-option" name="choice" value="maybe">
+      <label for="maybe-option">Tal vez</label>
+
+      <input type="radio" id="no-option" name="choice" value="no">
+      <label for="no-option">No</label>
+
+      <h2>¿Qué te gustaría que hiciera por tí?</h2>
+      <h3>Marca cuantas gustes</h3>
+
+      <input type="checkbox" name="apppagina" id="apppagina" value="appweb">
+      <label for="apppagina">Aplicacion Web</label>
+
+      <input type="checkbox" name="pagina" id="pagina" value="paginaweb">
+      <label for="pagina">Pagina Web</label>
+
+      <input type="checkbox" name="game" id="vgame" value="videogame">
+      <label for="vgame">Videojuego</label>
+
+      <input type="checkbox" name="circuito" id="circuitoe" value="circuito">
+      <label for="circuitoe">Circuito Electronico</label>
+
+      <h2>¿Tienes otra duda distinta?</h2>
+
+      <textarea></textarea>
+      <button id="submit">submit</button>
+    </form>
+  </main>
+
+  </body>
+  
+</html>
