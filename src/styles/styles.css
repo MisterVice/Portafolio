@@ -38,8 +38,8 @@ p {
    3. LAYOUT (ESTRUCTURA) [LAY]
    ========================================= */
 .container {
-    width: 65%;
-    height: 1%;
+    width: 50%;
+    height: auto;
     margin: auto;
     background-color: var(--primary-green);
     border-radius: 15px;
@@ -49,11 +49,75 @@ p {
 table {
     margin: auto;
     font-family: var(--main-font);
+    background-color: rgb(173, 46, 163);
+    border-radius: 12px;
+    border: dashed black
 }
 
 footer {
     padding-bottom: 20px;
     font-family: var(--main-font);
+}
+
+hr {
+    background-color: rgb(0, 85, 21);
+    border-color: rgb(0, 85, 21);
+    height: 5px;
+    width: 70%;
+}
+/* =========================================
+   4. formulario (ESTRUCTURA Y COLOR)
+   ========================================= */
+
+#dudas {
+    padding: 60px 20px;
+    justify-content: center;
+}
+
+.contenedor-formulario {
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    max-width: 30vw;
+    width: 100%;
+    text-align: justify;
+    margin: auto;   
+}
+
+.grupo-campo-tx {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo-campo-tx label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.formulario-estilizado input, 
+.formulario-estilizado select, 
+.formulario-estilizado textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.botones-form {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-enviar {
+    flex: 2;
+    background-color: black ;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 /* =========================================
@@ -86,4 +150,5 @@ li {
 figure img {
     border: 5px solid black;
     border-radius: 10px;
+    width: calc(15vw - 10px);
 }

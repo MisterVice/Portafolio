@@ -24,6 +24,8 @@
             </nav>
         
         </header>
+
+        <hr>
         
         <main>
             <section id="sobre-mi">
@@ -38,12 +40,13 @@
             
             </section>
 
+            <hr>
+
             <section id="conocimientos">
 
                 <h2 class="subtitle">Mis Conocimientos</h2>
                 
-                <table border="1">
-                    <caption>Mis conocimientos!</caption>
+                <table>
                     <thead>
                         <tr>
                             <th>Categoría</th>
@@ -72,6 +75,8 @@
 
             </section>
 
+            <hr>
+
             <section id="proyectos">
                 <h2 class="subtitle">Mis proyectos</h2>
                 <p>Un breve resumen de mis proyectos con sus respectivos archivos u enlances.</p>
@@ -80,34 +85,42 @@
                     <li><a class="boton" href="/src/pages/index2.html" target="_blank">Proyecto de certificacion de HTML5 básico.</a></li>
                 </ul>
             </section>
-
+            <hr>
             <section id="dudas">
                 <h2 class="subtitle">Dudas Sobre Mí</h2>
+                <div class="contenedor-formulario">
+                    <form action="#" method="post" class="formulario-estilizado">
+                        <div class="grupo-campo-tx">
+                            <label for="nombre">Nombre Completo:</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Ej: Jose Castilla" required>
+                        </div>
 
-                <form>
-                    <p>
-                        <label id="name-label" for="name">Name</label>
-                        <input required id="name" type="text" name="name" placeholder="John Doe">
-                    </p>
+                        <div class="grupo-campo-tx">
+                            <label for="correo">Correo Electrónico:</label>
+                            <input type="email" id="correo" name="correo" placeholder="josecastilla@correo.com" required>
+                        </div>
+ 
+                        <div class="grupo-campo-tx">
+                            <label for="mensaje">Tu mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe aquí tu duda" required></textarea>
+                        </div>
 
-                    <p>
-                        <label id="email-label" for="email">Email</label>
-                        <input required id="email" type="email" name="email" placeholder="example@email.com" >
-                    </p>
-        
-                    <p>
-                        <label id="number-label" for="number">Age</label>
-                        <input type="number" id="number" name="age" min="3" max="100" placeholder="18">
-                    </p>
+                        <div class="grupo-checkbox">
+                            <input type="checkbox" id="promos" name="promos">
+                            <label for="promos">Deseo recibir info en mi correo</label>
+                        </div>
 
-                    <textarea></textarea>
-                    <button id="submit">submit</button>
+                        <div class="botones-form">
+                            <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+                            <button type="reset" class="btn-limpiar">Limpiar Formulario</button>
+                        </div>
 
-                </form>
+                    </form>
+                </div>
             </section>
             
         </main>
-   
+    <hr>
     <footer>
         <section id="contacto">
 
@@ -116,7 +129,7 @@
                 Discord: <strong>mister_vicio</strong><br/>
                 Email: <a href="mailto:examplemail@mail.com">examplemail@mail.com</a>
             </address>
-
+            <p>&copy 2026 Jose Castilla. Todos los derechos reservados.</p>
         </section>
     </footer>
     </div>
