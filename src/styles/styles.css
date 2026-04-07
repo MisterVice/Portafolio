@@ -2,7 +2,7 @@
    1. VARIABLES & RESET [RES]
    ========================================= */
 :root {
-    --primary-green: rgba(0, 100, 0, 0.85);
+    --primary-green: rgba(0, 211, 0, 0.85);
     --main-font: Arial, Helvetica, sans-serif;
 }
 
@@ -38,7 +38,8 @@ p {
    3. LAYOUT (ESTRUCTURA) [LAY]
    ========================================= */
 .container {
-    width: 800px;
+    width: 65%;
+    height: 1%;
     margin: auto;
     background-color: var(--primary-green);
     border-radius: 15px;
