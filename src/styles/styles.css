@@ -1,26 +1,67 @@
+/* =========================================
+   1. VARIABLES & RESET [RES]
+   ========================================= */
+:root {
+    --primary-green: rgba(0, 100, 0, 0.85);
+    --main-font: Arial, Helvetica, sans-serif;
+}
+
 body {
     text-align: center;
     background-image: url(/src/images/JourneysEnd-Day-PC-Wallpaper.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    margin: 0; /* Siempre es bueno resetear el margen del body */
 }
 
-.boton {
-    color: gray;
-    background-color: black;
+/* =========================================
+   2. TIPOGRAFÍA GLOBAL [TYP]
+   ========================================= */
+h1 {
+    font-family: sans-serif;
+    font-size: 48px;
+}
+
+p {
+    font-family: var(--main-font);
+    padding: 20px;
+}
+
+.subtitle {
+    font-family: var(--main-font);
+    font-size: 20px;
     padding: 10px;
-    border-radius: 10px;
-    display: inline-block;
-    text-decoration: none;
 }
 
+/* =========================================
+   3. LAYOUT (ESTRUCTURA) [LAY]
+   ========================================= */
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: var(--primary-green);
+    border-radius: 15px;
+    padding: 10px;
+}
 
+table {
+    margin: auto;
+    font-family: var(--main-font);
+}
+
+footer {
+    padding-bottom: 20px;
+    font-family: var(--main-font);
+}
+
+/* =========================================
+   4. NAVEGACIÓN [NAV]
+   ========================================= */
 ul {
     list-style-type: none; 
     padding: 0;           
     text-align: center;   
-    
 }
 
 li {
@@ -28,42 +69,20 @@ li {
     margin: 0 15px; 
 }
 
+/* =========================================
+   5. COMPONENTES (BOTONES, IMÁGENES) [COM]
+   ========================================= */
+.boton {
+    color: gray;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.3s; /* Para que el hover que aprendiste sea suave */
+}
+
 figure img {
     border: 5px solid black;
     border-radius: 10px;
-}
-
-table {
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.container {
-    width: 800px;
-    margin: auto;
-    background-color: rgba(0, 100, 0, 0.85);
-    border-radius: 15px;
-    padding: 10px;
-}
-
-h1 {
-    font-family: sans-serif;
-    font-size: 48px;
-}
-
-.subtitle {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding: 10px;
-}
-
-p{
-    font-family: Arial;
-    padding: 20px
-}
-
-footer {
-    padding-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-
 }
