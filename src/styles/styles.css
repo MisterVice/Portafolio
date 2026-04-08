@@ -38,8 +38,8 @@ p {
    3. LAYOUT (ESTRUCTURA) [LAY]
    ========================================= */
 .container {
-    width: 90%;
-    max-width: 800px;
+    width: 95%;
+    max-width: 1000px;
     height: auto;
     margin: auto;
     background-color: var(--primary-green);
