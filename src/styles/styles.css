@@ -38,12 +38,18 @@ p {
    3. LAYOUT (ESTRUCTURA) [LAY]
    ========================================= */
 .container {
-    width: 50%;
+    width: 90%;
+    max-width: 800px;
     height: auto;
     margin: auto;
     background-color: var(--primary-green);
     border-radius: 15px;
     padding: 10px;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto; /* Esto crea la barra de scroll si la tabla es muy ancha */
 }
 
 table {
@@ -52,6 +58,7 @@ table {
     background-color: rgb(173, 46, 163);
     border-radius: 12px;
     border: dashed black
+    
 }
 
 footer {
